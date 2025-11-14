@@ -3,9 +3,14 @@ name: Build and Deploy Docs
 on:
   push:
     branches:
-      - feature/docs-ci
       - main
+      - feature/docs-ci
   workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -13,9 +18,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Install Doxygen
-        run: sudo apt-get update && sudo apt-get install -y doxygen
+        run: sudo apt-get update && sudo apt-get install -y doxygen graphviz
 
       - name: Run Doxygen
         run: doxygen Doxyfile
@@ -29,10 +36,11 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/feature/docs-ci' || github.ref == 'refs/heads/main'
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Download built docs
         uses: actions/download-artifact@v4
