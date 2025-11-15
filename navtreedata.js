@@ -24,24 +24,15 @@
 */
 var NAVTREE =
 [
-  [ "LibrarySystem", "index.html", [
-    [ "lab2-docs-ci", "md_README.html", null ],
+  [ "Library Documentation", "index.html", [
+    [ "Система бібліотеки — Документація та CI/CD (Лабораторна робота №2)", "md_README.html", [
+      [ "CI/CD (GitHub Actions)", "md_README.html#autotoc_md2", null ],
+      [ "✔ Висновок", "md_README.html#autotoc_md4", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ]
-      ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ]
-      ] ]
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ]
     ] ]
   ] ]
 ];
