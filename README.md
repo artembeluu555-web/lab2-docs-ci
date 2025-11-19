@@ -40,4 +40,7 @@ Workflow виконує такі кроки:
 - налаштування CI/CD;
 - автоматичний деплой документації на GitHub Pages.
 
+ feature/docs-ci
+Документаційна система працює повністю автоматично.
 Документаційна силка: https://artembeluu555-web.github.io/lab2-docs-ci/
+ main
