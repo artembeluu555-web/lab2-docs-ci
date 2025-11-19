@@ -1,13 +1,13 @@
 var annotated_dup =
 [
-    [ "AudioBook", "classAudioBook.html", "classAudioBook" ],
-    [ "Author", "classAuthor.html", "classAuthor" ],
-    [ "Book", "classBook.html", "classBook" ],
-    [ "Catalog", "classCatalog.html", "classCatalog" ],
-    [ "EBook", "classEBook.html", "classEBook" ],
-    [ "Librarian", "classLibrarian.html", "classLibrarian" ],
-    [ "Library", "classLibrary.html", "classLibrary" ],
-    [ "PrintedBook", "classPrintedBook.html", "classPrintedBook" ],
-    [ "Student", "classStudent.html", "classStudent" ],
-    [ "User", "classUser.html", "classUser" ]
+    [ "AudioBook", "classAudioBook.html", null ],
+    [ "Author", "classAuthor.html", null ],
+    [ "Book", "classBook.html", null ],
+    [ "Catalog", "classCatalog.html", null ],
+    [ "EBook", "classEBook.html", null ],
+    [ "Librarian", "classLibrarian.html", null ],
+    [ "Library", "classLibrary.html", null ],
+    [ "PrintedBook", "classPrintedBook.html", null ],
+    [ "Student", "classStudent.html", null ],
+    [ "User", "classUser.html", null ]
 ];

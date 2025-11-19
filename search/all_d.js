@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['user_0',['user',['../classUser.html',1,'User'],['../classUser.html#a64acc5b145dab7e70b4329888a8f88a6',1,'User::User()']]]
+  ['робота_20№2_0',['Система бібліотеки — Документація та CI/CD (Лабораторна робота №2)',['../md_README.html',1,'']]]
 ];
