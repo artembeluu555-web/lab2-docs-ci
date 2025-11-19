@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['title_0',['title',['../classBook.html#a694d90d6902d5f9d280db89ba533fad6',1,'Book']]]
+  ['user_0',['user',['../classUser.html',1,'User'],['../classUser.html#a64acc5b145dab7e70b4329888a8f88a6',1,'User::User()']]]
 ];

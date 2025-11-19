@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['printedbook_0',['printedbook',['../classPrintedBook.html',1,'PrintedBook'],['../classPrintedBook.html#a03d6161bfc77df6bfaf393e4e27df588',1,'PrintedBook::PrintedBook()']]],
-  ['printinfo_1',['printinfo',['../classBook.html#a491b89578349f0b0cd5f3a2ffc1f5911',1,'Book::printInfo()'],['../classPrintedBook.html#a3902568cbc5b3c330ac0d5d36878585e',1,'PrintedBook::printInfo()'],['../classEBook.html#afec23af36e32a72b6d1a8d44d14bf502',1,'EBook::printInfo()'],['../classAudioBook.html#aa717b0a9bd8730dbfaf4cb21865f5c1c',1,'AudioBook::printInfo()']]],
-  ['printmenu_2',['printMenu',['../main_8cpp.html#ab13e858612c64eeef73aff1d8a03945e',1,'main.cpp']]]
+  ['readme_2emd_0',['README.md',['../README_8md.html',1,'']]],
+  ['returnbook_1',['returnbook',['../classBook.html#a131c4c3daf42ce0843536e2f2f5f1962',1,'Book::returnBook()'],['../classUser.html#a58e2561af621ed46ec8ab51019281fd5',1,'User::returnBook()']]]
 ];

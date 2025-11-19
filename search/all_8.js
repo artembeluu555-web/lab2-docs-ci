@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]],
-  ['main_2ecpp_1',['main.cpp',['../main_8cpp.html',1,'']]]
+  ['name_0',['name',['../classUser.html#a643f85779a4693855c171c396f49e515',1,'User']]],
+  ['newbookid_1',['newBookId',['../classLibrary.html#a0ad9fe9dd9078d780c690b526cc32633',1,'Library']]]
 ];
