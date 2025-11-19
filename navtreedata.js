@@ -25,10 +25,7 @@
 var NAVTREE =
 [
   [ "LibrarySystem", "index.html", [
-    [ "Система бібліотеки — Документація та CI/CD (Лабораторна робота №2)", "md_README.html", [
-      [ "CI/CD (GitHub Actions)", "md_README.html#autotoc_md2", null ],
-      [ "✔ Висновок", "md_README.html#autotoc_md4", null ]
-    ] ],
+    [ "lab2-docs-ci", "md_README.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
