@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Library Documentation: User Class Reference</title>
+<title>LibrarySystem: User Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Library Documentation
+   <div id="projectname">LibrarySystem
    </div>
   </td>
  </tr>
@@ -96,49 +96,272 @@ $(document).ready(function(){initNavTree('classUser.html',''); initResizable(); 
   <div class="headertitle"><div class="title">User Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Abstract base class for all library users.  
+ <a href="classUser.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for User:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="classUser.png" usemap="#User_map" alt=""/>
   <map id="User_map" name="User_map">
-<area href="classLibrarian.html" alt="Librarian" shape="rect" coords="0,56,63,80"/>
-<area href="classStudent.html" alt="Student" shape="rect" coords="73,56,136,80"/>
+<area href="classLibrarian.html" title="Represents a librarian user." alt="Librarian" shape="rect" coords="0,56,63,80"/>
+<area href="classStudent.html" title="Represents a student user." alt="Student" shape="rect" coords="73,56,136,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a64acc5b145dab7e70b4329888a8f88a6" id="r_a64acc5b145dab7e70b4329888a8f88a6"><td class="memItemLeft" align="right" valign="top"><a id="a64acc5b145dab7e70b4329888a8f88a6" name="a64acc5b145dab7e70b4329888a8f88a6"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>User</b> (string n)</td></tr>
+<tr class="memitem:a64acc5b145dab7e70b4329888a8f88a6" id="r_a64acc5b145dab7e70b4329888a8f88a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUser.html#a64acc5b145dab7e70b4329888a8f88a6">User</a> (string n)</td></tr>
+<tr class="memdesc:a64acc5b145dab7e70b4329888a8f88a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="separator:a64acc5b145dab7e70b4329888a8f88a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61b6bdb161b78cd21fcef4f8fb6fc546" id="r_a61b6bdb161b78cd21fcef4f8fb6fc546"><td class="memItemLeft" align="right" valign="top"><a id="a61b6bdb161b78cd21fcef4f8fb6fc546" name="a61b6bdb161b78cd21fcef4f8fb6fc546"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>showRole</b> () const =0</td></tr>
+<tr class="memitem:a61b6bdb161b78cd21fcef4f8fb6fc546" id="r_a61b6bdb161b78cd21fcef4f8fb6fc546"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUser.html#a61b6bdb161b78cd21fcef4f8fb6fc546">showRole</a> () const =0</td></tr>
+<tr class="memdesc:a61b6bdb161b78cd21fcef4f8fb6fc546"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display user information.  <br /></td></tr>
 <tr class="separator:a61b6bdb161b78cd21fcef4f8fb6fc546"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f448a42fcfcbf2283682c05b4a69511" id="r_a8f448a42fcfcbf2283682c05b4a69511"><td class="memItemLeft" align="right" valign="top"><a id="a8f448a42fcfcbf2283682c05b4a69511" name="a8f448a42fcfcbf2283682c05b4a69511"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>canBorrow</b> () const =0</td></tr>
+<tr class="memitem:a8f448a42fcfcbf2283682c05b4a69511" id="r_a8f448a42fcfcbf2283682c05b4a69511"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUser.html#a8f448a42fcfcbf2283682c05b4a69511">canBorrow</a> () const =0</td></tr>
+<tr class="memdesc:a8f448a42fcfcbf2283682c05b4a69511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the user can borrow more books.  <br /></td></tr>
 <tr class="separator:a8f448a42fcfcbf2283682c05b4a69511"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a438f0e4770da3b678677228d7c0cdd68" id="r_a438f0e4770da3b678677228d7c0cdd68"><td class="memItemLeft" align="right" valign="top"><a id="a438f0e4770da3b678677228d7c0cdd68" name="a438f0e4770da3b678677228d7c0cdd68"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>borrowBook</b> ()</td></tr>
+<tr class="memitem:a438f0e4770da3b678677228d7c0cdd68" id="r_a438f0e4770da3b678677228d7c0cdd68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUser.html#a438f0e4770da3b678677228d7c0cdd68">borrowBook</a> ()</td></tr>
+<tr class="memdesc:a438f0e4770da3b678677228d7c0cdd68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a borrowed book.  <br /></td></tr>
 <tr class="separator:a438f0e4770da3b678677228d7c0cdd68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58e2561af621ed46ec8ab51019281fd5" id="r_a58e2561af621ed46ec8ab51019281fd5"><td class="memItemLeft" align="right" valign="top"><a id="a58e2561af621ed46ec8ab51019281fd5" name="a58e2561af621ed46ec8ab51019281fd5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>returnBook</b> ()</td></tr>
+<tr class="memitem:a58e2561af621ed46ec8ab51019281fd5" id="r_a58e2561af621ed46ec8ab51019281fd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUser.html#a58e2561af621ed46ec8ab51019281fd5">returnBook</a> ()</td></tr>
+<tr class="memdesc:a58e2561af621ed46ec8ab51019281fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a borrowed book.  <br /></td></tr>
 <tr class="separator:a58e2561af621ed46ec8ab51019281fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9b2b5feb6bdd1582696eb6d44cee384" id="r_ab9b2b5feb6bdd1582696eb6d44cee384"><td class="memItemLeft" align="right" valign="top"><a id="ab9b2b5feb6bdd1582696eb6d44cee384" name="ab9b2b5feb6bdd1582696eb6d44cee384"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>getName</b> () const</td></tr>
+<tr class="memitem:ab9b2b5feb6bdd1582696eb6d44cee384" id="r_ab9b2b5feb6bdd1582696eb6d44cee384"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUser.html#ab9b2b5feb6bdd1582696eb6d44cee384">getName</a> () const</td></tr>
+<tr class="memdesc:ab9b2b5feb6bdd1582696eb6d44cee384"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get user's name.  <br /></td></tr>
 <tr class="separator:ab9b2b5feb6bdd1582696eb6d44cee384"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a643f85779a4693855c171c396f49e515" id="r_a643f85779a4693855c171c396f49e515"><td class="memItemLeft" align="right" valign="top"><a id="a643f85779a4693855c171c396f49e515" name="a643f85779a4693855c171c396f49e515"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>name</b></td></tr>
+<tr class="memitem:a643f85779a4693855c171c396f49e515" id="r_a643f85779a4693855c171c396f49e515"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUser.html#a643f85779a4693855c171c396f49e515">name</a></td></tr>
 <tr class="separator:a643f85779a4693855c171c396f49e515"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a042503d55e0ba2dcbbc20146888cffc5" id="r_a042503d55e0ba2dcbbc20146888cffc5"><td class="memItemLeft" align="right" valign="top"><a id="a042503d55e0ba2dcbbc20146888cffc5" name="a042503d55e0ba2dcbbc20146888cffc5"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>borrowed</b></td></tr>
+<tr class="memitem:a042503d55e0ba2dcbbc20146888cffc5" id="r_a042503d55e0ba2dcbbc20146888cffc5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUser.html#a042503d55e0ba2dcbbc20146888cffc5">borrowed</a></td></tr>
 <tr class="separator:a042503d55e0ba2dcbbc20146888cffc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Abstract base class for all library users. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a64acc5b145dab7e70b4329888a8f88a6" name="a64acc5b145dab7e70b4329888a8f88a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64acc5b145dab7e70b4329888a8f88a6">&#9670;&#160;</a></span>User()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">User::User </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td><a class="el" href="classUser.html" title="Abstract base class for all library users.">User</a> name. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a438f0e4770da3b678677228d7c0cdd68" name="a438f0e4770da3b678677228d7c0cdd68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a438f0e4770da3b678677228d7c0cdd68">&#9670;&#160;</a></span>borrowBook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void User::borrowBook </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Register a borrowed book. </p>
+
+</div>
+</div>
+<a id="a8f448a42fcfcbf2283682c05b4a69511" name="a8f448a42fcfcbf2283682c05b4a69511"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f448a42fcfcbf2283682c05b4a69511">&#9670;&#160;</a></span>canBorrow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool User::canBorrow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the user can borrow more books. </p>
+
+<p>Implemented in <a class="el" href="classStudent.html#a7a4f69d7b530b12ea08f8af61f4d388a">Student</a>, and <a class="el" href="classLibrarian.html#a9ca72d427295f74b85e4a0c4e13769f8">Librarian</a>.</p>
+
+</div>
+</div>
+<a id="ab9b2b5feb6bdd1582696eb6d44cee384" name="ab9b2b5feb6bdd1582696eb6d44cee384"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9b2b5feb6bdd1582696eb6d44cee384">&#9670;&#160;</a></span>getName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string User::getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get user's name. </p>
+
+</div>
+</div>
+<a id="a58e2561af621ed46ec8ab51019281fd5" name="a58e2561af621ed46ec8ab51019281fd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58e2561af621ed46ec8ab51019281fd5">&#9670;&#160;</a></span>returnBook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void User::returnBook </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return a borrowed book. </p>
+
+</div>
+</div>
+<a id="a61b6bdb161b78cd21fcef4f8fb6fc546" name="a61b6bdb161b78cd21fcef4f8fb6fc546"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61b6bdb161b78cd21fcef4f8fb6fc546">&#9670;&#160;</a></span>showRole()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void User::showRole </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Display user information. </p>
+
+<p>Implemented in <a class="el" href="classStudent.html#add8d2e806e1d72db2ea82c430983352a">Student</a>, and <a class="el" href="classLibrarian.html#ad88d3178179612cb932237be419baa3b">Librarian</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a042503d55e0ba2dcbbc20146888cffc5" name="a042503d55e0ba2dcbbc20146888cffc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a042503d55e0ba2dcbbc20146888cffc5">&#9670;&#160;</a></span>borrowed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int User::borrowed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a643f85779a4693855c171c396f49e515" name="a643f85779a4693855c171c396f49e515"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a643f85779a4693855c171c396f49e515">&#9670;&#160;</a></span>name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string User::name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><b>main.cpp</b></li>
+<li><a class="el" href="main_8cpp.html">main.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
